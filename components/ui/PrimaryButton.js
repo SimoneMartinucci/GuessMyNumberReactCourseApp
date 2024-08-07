@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
         elevation: 2,
     },
     buttonText: {
+        fontFamily: 'open-sans',
         color: 'white',
         textAlign: 'center'
     },

@@ -1,5 +1,4 @@
 import { StyleSheet, Text, View } from "react-native"
-import Colors from '../../constants/colors'
 export default function Title({ children }) {
     return (
         <View>
@@ -10,8 +9,9 @@ export default function Title({ children }) {
 
 const styles = StyleSheet.create({
     titleStyle: {
+        fontFamily: 'open-sans-bold',
         fontSize: 24,
-        fontWeight: 'bold',
+        // fontWeight: 'bold',
         color: 'white',
         textAlign: 'center',
         borderWidth: 2,
